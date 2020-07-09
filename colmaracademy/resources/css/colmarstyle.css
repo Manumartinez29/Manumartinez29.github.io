@@ -76,18 +76,18 @@ header {
     position: fixed;
     z-index: 1;
     align-items: center;
-    border: 1px solid red;
 }
 
 header nav {
     text-align: right;
     flex-grow: 1;
-    flex-shrink: 1;
+    flex-shrink: 2;
 }
 
 nav span {
     display: inline-block;
     padding: 0 1rem 0 0;
+
 }
 
 #sign-in {
@@ -113,19 +113,26 @@ header img {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
     .flex-header {
         display: none;
     }
 
     .mobile-container {
-        display: inline-block;
+        display: inline-flex;
         height: 64px;
         align-items: center;
         width: 100%;
         text-align: center;
-        padding: 0 2rem;
+        justify-content: center;
         position: fixed;
+
+    }
+
+    .mobile-container a {
+        padding: 0 2rem;
+        align-items: center;
+
     }
 
 
