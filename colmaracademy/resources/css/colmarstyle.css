@@ -45,9 +45,9 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: #4f4d4d;
+    color: #52616a;
     margin: 0;
-    background-color: #ffffff;
+    background-color: #f0f5f9;
     font-weight: 400;
 }
 
@@ -56,12 +56,12 @@ body {
 }
 
 a {
-    color: #4f4d4d;
+    color: #52616a;
     text-decoration: none;
 }
 
 .gray-background {
-    background-color: lightslategray;
+    background-color: ;
 }
 
 
@@ -87,6 +87,10 @@ header nav {
 nav span {
     display: inline-block;
     padding: 0 1rem 0 0;
+}
+
+nav span a {
+    color: #52616a;
 
 }
 
@@ -104,16 +108,18 @@ header img {
 
 #colmar {
     font-weight: 700;
+    color: #1e2022;
 }
 
 #academy {
     font-weight: 300;
     font-size: 1.5rem;
     line-height: 2rem;
+    color: #1e2022;
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
     .flex-header {
         display: none;
     }
@@ -131,7 +137,6 @@ header img {
     .mobile-container a {
         padding: 0 2rem;
         align-items: center;
-
     }
 
 
