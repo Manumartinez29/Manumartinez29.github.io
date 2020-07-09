@@ -55,27 +55,29 @@ body {
     display: flex;
 }
 
+.flex-container {
+    display: flex;
+}
+
 a {
     color: #52616a;
     text-decoration: none;
 }
 
-.gray-background {
-    background-color: ;
-}
 
 
 
-        /*Header*/
+/*Header*/
 
 
 
 header {
-    height: 64px;
+    min-height: 4rem;
     width: 100%;
     position: fixed;
     z-index: 1;
     align-items: center;
+    background-color: #f0f5f9;
 }
 
 header nav {
@@ -124,6 +126,10 @@ header img {
         display: none;
     }
 
+    header {
+        display: none;
+    }
+
     .mobile-container {
         display: inline-flex;
         height: 64px;
@@ -137,9 +143,95 @@ header img {
     .mobile-container a {
         padding: 0 2rem;
         align-items: center;
+    } 
+
+}
+
+
+
+/*Banner*/
+
+
+
+.banner {
+    background-color: #c9d6de;
+    width: 100%;
+    height: 45.4375rem;
+    display: inline-flex;
+    color: #52616a;
+    justify-content: left;
+}
+
+.banner-left {
+    width: 60%;
+    margin: 6rem 1.5rem 2rem 1.5rem;
+}
+
+.banner-left img {
+    width: 100%;
+}
+
+.banner-right {
+    margin: 10rem 0 0 0;
+    width: 20%;
+    float: left;
+    height: 18.75rem;
+}
+
+.banner-right button {
+    width: 100%;
+    padding: 0.5rem 0 0.5rem 0;
+    background-color: #52616a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: white;
+}
+
+.mobile-container {
+    display: none;
+}
+
+.mobile-banner {
+    display: none;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .banner {
+        display: none;
+    }
+
+    .mobile-banner {
+    background-color: #c9d6de;
+    width: 100%;
+    min-height: 24rem;
+    display: inline-flex;
+    color: #52616a;
+    justify-content: left;
+    }
+
+    .mobile-banner h1 {
+        padding: 2rem 0 2rem 1rem;
+    }
+
+    .mobile-banner h3 {
+        padding: 0 0 1rem 1.5rem;
+    }
+
+    .mobile-banner button {
+        width: 80%;
+        background-color: #52616a;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        color: white;
     }
 
 
 }
+
+
+
+/*information*/ 
+
 
 
