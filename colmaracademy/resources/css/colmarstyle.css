@@ -391,6 +391,10 @@ header img {
     background-color: #c9d6de;
 }
 
+.thesis-mobile {
+    display: none;
+}
+
 
 
 /*Footer*/
@@ -412,6 +416,9 @@ footer p {
     left: 60%;
 }
 
+.mobile-footer {
+    display: none;
+}
 
 
 /*Mobile Styling*/
@@ -525,6 +532,7 @@ footer p {
     text-align: center;
     padding: 2rem 0 1rem 0;
     margin: 2rem 1rem;
+    font-size: 1.5rem;
 }
 
 .courses-mobile-button {
@@ -541,6 +549,41 @@ footer p {
 
 /*Mobile Thesis*/
 
+    .thesis-section {
+        display: none;
+    } 
+
+    .thesis-mobile {
+        display: block;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .thesis-mobile-videobox {
+        width: 100%;
+        text-align: center;
+        margin: 1rem 0 1.5rem 0;
+    }
+    .thesis-mobile-videobox video {
+        width: 90%;
+    }
+
+
+
+/*Mobile Footer*/
+
+    footer {
+        display: none;
+    }
+
+    .mobile-footer {
+        display: block;
+        text-align: center;
+    }
+
+    .mobile-footer p {
+        margin: 1rem 0;
+    }
 
 }
 
