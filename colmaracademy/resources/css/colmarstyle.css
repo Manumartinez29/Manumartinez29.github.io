@@ -272,13 +272,13 @@ header img {
 
 /*Courses Section */
 
+
 .courses-section {
     background-color: #c9d6de;
     text-align: center;
     position: relative;
     top: 4rem;
     width: 100%;
-    
 }
 
 .courses-section h2 {
@@ -319,6 +319,99 @@ header img {
     font-size: 1.5rem;
 }
 
+.courses-mobile {
+    display: none;
+}
+
+
+/*Thesis Section*/
+
+
+.thesis-section {
+    margin: 2rem 1rem 2rem 1.5rem;
+    text-align: center;
+}
+
+.thesis-section h2 {
+    padding-bottom: 2rem;
+    text-align: center;
+    position: relative;
+    top: 4rem;
+    font-size: 3rem;
+}
+
+.thesis-content {
+    display: inline-flex;
+    text-align: left;
+}
+
+.thesis-left {
+    width: 60%;
+    margin-right: 1.5rem;
+    position: relative;
+    top: 4rem;
+    flex-wrap: wrap;
+}
+
+.thesis-left h3 {
+    font-size: 2rem;
+}
+
+.thesis-left video {
+    width: 100%;
+}
+
+.thesis-right {
+    position: relative;
+    top: 4rem;
+    width: 40%;
+    text-align: left;
+}
+
+.thesis-right-container {
+    display: inline-flex;
+}
+
+.thesis-right-container img {
+    width: 35%;
+    height: auto;
+    margin: 1rem;
+}
+
+.thesis-right-text {
+    width: 65%;
+    margin: 1rem 0;
+}
+
+.thesis-right-text h4 {
+    font-size: 1.5rem;
+}
+
+#fisma {
+    background-color: #c9d6de;
+}
+
+
+
+/*Footer*/
+
+footer {
+    position: relative;
+    top: 4rem;
+    display: inline-flex;
+    width: 100%;
+    border-top: 1px solid #c9d6de;
+}
+
+footer p {
+    margin: 1rem 1rem 0 1.5rem;
+}
+
+.footer-right {
+    position: relative;
+    left: 60%;
+}
+
 
 
 /*Mobile Styling*/
@@ -340,6 +433,8 @@ header img {
         align-items: center;
         z-index: 1;
     }
+
+/*Mobile Banner*/
 
     .banner {
         display: none;
@@ -386,6 +481,8 @@ header img {
         padding: 0.5rem 0;
     }
 
+/*Mobile Information*/
+
     .information {
         display: none;
     }
@@ -415,4 +512,36 @@ header img {
         margin-left: 1rem;
         margin-bottom: 4rem;
     }
+
+
+/*Mobile Courses*/ 
+
+.courses-section {
+    display: none;
 }
+
+.courses-mobile {
+    display: block;
+    text-align: center;
+    padding: 2rem 0 1rem 0;
+    margin: 2rem 1rem;
+}
+
+.courses-mobile-button {
+    text-align: left;
+    padding: 1rem 1rem 1.5rem 1rem;
+    margin: 1rem 0;
+    background-color: #c9d6de;
+}
+
+.courses-mobile-button h4 {
+    font-size: 1.5rem;
+}
+
+
+/*Mobile Thesis*/
+
+
+}
+
+
