@@ -287,6 +287,11 @@ header img {
 
 .info-right h4 {
     font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.info-right p {
+    padding-bottom: 0.5rem;
 }
 
 .info-right a {
@@ -303,25 +308,21 @@ header img {
     display: block;
     text-align: left;
     margin-left: 2rem;
+    flex-wrap: wrap;
 }
 
-.orientation {
+.info-right-text p {
+    flex-wrap: wrap;
+}
+
+.info-right-container {
     display: inline-flex;
-    min-height: 10rem;
+    height: 10.5rem;
     margin-bottom: 2.2rem;
     padding: 1rem 1rem;
 }
 
-.campus {
-    display: inline-flex;
-    min-height: 10rem;
-    margin-bottom: 2.2rem;
-    padding: 1rem 1rem;
-}
-
-.lecture {
-    display: inline-flex;
+#lecture {
     background-color: #c9d6de;
-    padding: 1rem 1rem;
-    min-height: 9rem;
 }
+
