@@ -39,7 +39,7 @@
 
 
   
-        /*Universal Styling*/
+/*Universal Styling*/
 
 
 body {
@@ -64,6 +64,17 @@ a {
     text-decoration: none;
 }
 
+.mobile-header {
+    display: none;
+}
+
+.mobile-banner {
+    display: none;
+}
+
+.information-mobile {
+    display: none;
+}
 
 
 
@@ -117,36 +128,8 @@ header img {
     color: #1e2022;
 }
 
-.mobile-header {
-    display: none;
-}
 
-
-
-@media only screen and (min-width: 200px) and (max-width: 768px) {
-    
-    .flex-header {
-        display: none;
-    }
-
-    .mobile-header {
-        display: flex;
-        position: fixed;
-        width: 100%;
-        height: 64px;
-        background-color: #f0f5f9;
-        justify-content: space-around;
-        align-items: center;
-        z-index: 1;
-    }
-
-    
-
-}
-
-
-
-/*Banner*/
+/*Banner Section*/
 
 
 
@@ -197,64 +180,10 @@ header img {
     display: none;
 }
 
-.mobile-banner {
-    display: none;
-}
-
-@media only screen and (min-width: 200px) and (max-width: 768px) {
-
-    .banner {
-        display: none;
-    }
-
-    .mobile-banner {
-    display: inline-flex;
-    background-color: #c9d6de;
-    width: 100%;
-    height: 55rem;
-    color: #52616a;
-    justify-content: left;
-    flex-wrap: wrap;
-    flex-direction: column;
-    }
-
-    .mobile-banner img {
-        width: 100%;
-        position: relative;
-        top: 4rem;
-    }
-
-    .mobile-banner-text {
-        position: relative;
-        top: 4rem;
-        margin: 2rem 1rem;
-        background-color: #c9d6de;
-
-    }
-
-    .mobile-banner-text h1 {
-       font-size: 4rem;
-       
-    }
-
-    .mobile-banner-text h3 {
-        
-        font-size: 1.5rem;
-    }
-
-    .mobile-banner-text button {
-        width: 100%;
-        background-color: #52616a;
-        padding: 0.5rem 0;
-    }
 
 
+/*information Section*/ 
 
-}
-
-
-
-/*information*/ 
 
 
 .information {
@@ -340,11 +269,122 @@ header img {
     background-color: #c9d6de;
 }
 
-.information-mobile {
-    display: none;
+
+/*Courses Section */
+
+.courses-section {
+    background-color: #c9d6de;
+    text-align: center;
+    position: relative;
+    top: 4rem;
+    width: 100%;
+    
 }
 
-@media only screen and (min-width: 200px) and (max-width: 768px) {
+.courses-section h2 {
+    font-size: 3rem;
+    padding-top: 2rem;
+}
+
+.courses {
+    max-width: 100%;
+    height: 900px;
+    margin: 2rem 4.5rem 2rem 4.5rem;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course-box {
+    background-color: #f0f5f9;
+    width: 30%;
+    height: 370px;
+    text-align: left;
+}
+
+.courses-text {
+    margin-left: 1rem;
+}
+
+.courses-text p {
+    margin: 0.5rem 0;
+}
+
+.course-box img {
+    width: 100%;
+}
+
+.course-box h4 {
+    font-size: 1.5rem;
+}
+
+
+
+/*Mobile Styling*/
+
+
+@media only screen and (max-width: 760px) {
+    
+    .flex-header {
+        display: none;
+    }
+
+    .mobile-header {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        height: 64px;
+        background-color: #f0f5f9;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .mobile-banner {
+    display: flex;
+    background-color: #c9d6de;
+    width: 100%;
+    height: 55rem;
+    color: #52616a;
+    justify-content: left;
+    flex-wrap: wrap;
+    flex-direction: column;
+    }
+
+    .mobile-banner img {
+        width: 100%;
+        position: relative;
+        top: 4rem;
+    }
+
+    .mobile-banner-text {
+        position: relative;
+        top: 4rem;
+        margin: 2rem 1rem;
+        background-color: #c9d6de;
+
+    }
+
+    .mobile-banner-text h1 {
+       font-size: 4rem;
+       
+    }
+
+    .mobile-banner-text h3 {
+        
+        font-size: 1.5rem;
+    }
+
+    .mobile-banner-text button {
+        width: 100%;
+        background-color: #52616a;
+        padding: 0.5rem 0;
+    }
 
     .information {
         display: none;
