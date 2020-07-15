@@ -399,6 +399,8 @@ header img {
 
 /*Footer*/
 
+
+
 footer {
     position: relative;
     top: 4rem;
@@ -421,7 +423,9 @@ footer p {
 }
 
 
+
 /*Mobile Styling*/
+
 
 
 @media only screen and (max-width: 760px) {
@@ -578,13 +582,17 @@ footer p {
 
     .mobile-footer {
         display: block;
-        text-align: center;
+        text-align: left;
+        margin-top: 1.5rem;
     }
 
     .mobile-footer p {
         margin: 1rem 0;
+        font-size: 0.6rem;
+        padding: 1rem 0 1rem 1rem;
+        font-weight: 300;
     }
 
-}
+} 
 
 
