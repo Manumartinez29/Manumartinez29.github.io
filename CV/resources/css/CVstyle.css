@@ -43,7 +43,7 @@
       font-size: 16px;
       display: grid;
       grid-template-columns: repeat(10, 1fr);
-      grid-template-rows: repeat(50, 5rem);
+      grid-template-rows: repeat(33, 5rem);
 
   }
 
@@ -204,4 +204,3 @@
     list-style: none;
  }
 
- 
