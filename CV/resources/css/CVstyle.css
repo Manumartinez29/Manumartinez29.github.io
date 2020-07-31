@@ -69,16 +69,23 @@ h4 {
 
 .logo {
     width: 1rem;
+    height: 1rem;
 }
 
-p, li {
+p, li, a {
     color: #52616a;
+    text-decoration: none;
 }
 
 hr {
     height: 4px;
     background-color: black;
 }
+
+.responsive-header, .responsive-experience, .responsive-skills, .responsive-education, .responsive-language, .r-footer {
+    display: none;
+}
+
 
 
 /*Header*/
@@ -88,6 +95,7 @@ hr {
     display: inline-block;
     text-align: left;
     margin-top: 1rem;
+    flex-shrink: 2;
 }
 
 .header h1 {
@@ -110,7 +118,7 @@ hr {
   width: 12rem;
   position: relative;
   bottom: 11rem;
-  left: 65rem;
+  left: 70rem;
   border-radius: 50%;
 }
 
@@ -171,15 +179,20 @@ hr {
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-evenly;
+  min-height: 600px;
 }
 
 .hard {
     width: 40%;
+    flex-shrink: 2;
 }
 
 .tools {
     width: 40%;
+    flex-shrink: 2;
+    
 }
+
 
 
 /*Education Section*/
@@ -188,10 +201,8 @@ hr {
 .education-section {
     grid-area: 13 / 7 / 25 / 11;
     padding-top: 1rem;
-    display: flex;
-    flex-wrap: wrap;
     width: 100%;
-    justify-content: center;
+    text-align: center;
 }
 
 .education-section h3 {
@@ -253,3 +264,172 @@ hr {
 }
 
 
+
+/*Responsive Styling*/
+
+
+
+@media only screen and (max-width: 760px) {
+
+    body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(47, 5rem);
+    }
+
+    .r-logo {
+        width: 0.5rem;
+        height: 0.5rem;
+        padding-right: 0.1rem;
+    }
+
+    ul {
+        list-style-type: disc;
+    }
+
+    
+    
+    /*Responsive Header*/
+
+    .header {
+        display: none;
+    }
+
+    .responsive-header {
+        grid-area: 1 / 1 / 5 / 2;
+        display: inline-flex;
+        list-style: none;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .responsive-header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .responsive-header ul {
+        width: 100%;
+        margin: 0;
+        display: inline-flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        flex-direction: column;
+        justify-content: start;
+        padding-top: -1rem;
+    }
+
+    .responsive-header li {
+        line-height: 1rem;
+    }
+
+
+    /*Responsive Experience*/
+
+    .experience-section {
+        display: none;
+    }
+
+    .responsive-experience {
+        grid-area: 5 / 1 / 21 / 2;
+        display: block;
+    }
+
+    .responsive-experience, h2, h3 {
+        text-align: center;
+    }
+
+    .r-ds ul  {
+        text-align: justify;
+        margin-left: -1.5rem;
+    }
+
+    .r-pm  ul {
+        text-align: justify;
+        margin-left: -1.5rem;
+    }
+
+    .r-smm ul {
+        text-align: justify;
+        margin-left: -1.5rem;
+    }
+
+
+    /*Responsive Skills*/
+
+
+    .skills-section {
+        display: none;
+    }
+
+    .responsive-skills {
+        grid-area: 21 / 1 / 31 / 2;
+        display: block;
+    }
+
+    .responsive-skills ul {
+        margin-left: -1.5rem;
+    }
+
+    .responsive-skills li {
+        text-align: left;
+    }
+
+
+
+    /*Responsive Education*/
+
+    .education-section {
+        display: none;
+    }
+
+    .responsive-education {
+        grid-area: 31 / 1 / 42 / 2;
+        text-align: center;
+        display: block;
+    }
+
+    .responsive-education ul {
+        margin-left: -1.5rem;
+    }
+
+    .responsive-education li {
+        text-align: justify;
+        padding-right: 0.2rem;
+    }
+
+    .responsive-education p {
+        text-align: justify;
+        padding: 0 0.5rem;
+    }
+
+
+
+    /*Responsive Language*/
+
+    .language-section {
+        display: none;
+    }
+
+    .responsive-language {
+        grid-area: 42 / 1 / 47 / 2;
+        display: block;
+    }
+
+    .responsive-language ul {
+        list-style-type: none;
+        text-align: center;
+        margin-left: -1.5rem;
+    }
+
+
+    /*Responsive Footer*/
+
+    .r-footer {
+        display: block;
+    }
+
+}
