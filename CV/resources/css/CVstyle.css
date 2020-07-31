@@ -458,3 +458,175 @@ hr {
     }
 
 }
+
+
+
+@media only screen and (max-width: 640px) {
+
+    body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(60, 5rem);
+    margin-left: 1rem;
+    }
+
+    .r-logo {
+        width: 0.5rem;
+        height: 0.5rem;
+        padding-right: 0.1rem;
+    }
+
+    ul {
+        list-style-type: disc;
+    }
+
+    
+    
+    /*Responsive Header*/
+
+    .header {
+        display: none;
+    }
+
+    .responsive-header {
+        grid-area: 1 / 1 / 5 / 2;
+        display: inline-flex;
+        list-style: none;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .responsive-header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .responsive-header ul {
+        width: 100%;
+        margin: 0;
+        display: inline-flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        flex-direction: column;
+        justify-content: start;
+        padding-top: -1rem;
+    }
+
+    .responsive-header li {
+        line-height: 1rem;
+    }
+
+
+    /*Responsive Experience*/
+
+    .experience-section {
+        display: none;
+    }
+
+    .responsive-experience {
+        grid-area: 5 / 1 / 28 / 2;
+        display: block;
+    }
+
+    .responsive-experience, h2, h3 {
+        text-align: center;
+    }
+
+    .r-ds ul  {
+        text-align: justify;
+        margin-left: -1.5rem;
+    }
+
+    .r-pm  ul {
+        text-align: justify;
+        margin-left: -1.5rem;
+    }
+
+    .r-smm ul {
+        text-align: justify;
+        margin-left: -1.5rem;
+    }
+
+
+    /*Responsive Skills*/
+
+
+    .skills-section {
+        display: none;
+    }
+
+    .responsive-skills {
+        grid-area: 28 / 1 / 40 / 2;
+        display: block;
+    }
+
+    .responsive-skills ul {
+        margin-left: -1.5rem;
+    }
+
+    .responsive-skills li {
+        text-align: left;
+    }
+
+
+
+    /*Responsive Education*/
+
+    .education-section {
+        display: none;
+    }
+
+    .responsive-education {
+        grid-area: 40 / 1 / 55 / 2;
+        text-align: center;
+        display: block;
+    }
+
+    .responsive-education span {
+        font-style: italic;
+    }
+
+    .responsive-education ul {
+        margin-left: -1.5rem;
+    }
+
+    .responsive-education li {
+        text-align: justify;
+        padding-right: 0.2rem;
+    }
+
+    .responsive-education p {
+        text-align: justify;
+        padding: 0 0.5rem;
+    }
+
+
+
+    /*Responsive Language*/
+
+    .language-section {
+        display: none;
+    }
+
+    .responsive-language {
+        grid-area: 55 / 1 / 61 / 2;
+        display: block;
+    }
+
+    .responsive-language ul {
+        list-style-type: none;
+        text-align: center;
+        margin-left: -1.5rem;
+    }
+
+
+    /*Responsive Footer*/
+
+    .r-footer {
+        display: block;
+    }
+
+}
