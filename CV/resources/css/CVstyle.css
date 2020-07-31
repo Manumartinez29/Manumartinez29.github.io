@@ -273,10 +273,10 @@ hr {
 
     body {
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(47, 5rem);
+    grid-template-rows: repeat(60, 5rem);
     }
 
     .r-logo {
@@ -334,7 +334,7 @@ hr {
     }
 
     .responsive-experience {
-        grid-area: 5 / 1 / 21 / 2;
+        grid-area: 5 / 1 / 28 / 2;
         display: block;
     }
 
@@ -366,7 +366,7 @@ hr {
     }
 
     .responsive-skills {
-        grid-area: 21 / 1 / 31 / 2;
+        grid-area: 28 / 1 / 40 / 2;
         display: block;
     }
 
@@ -387,7 +387,7 @@ hr {
     }
 
     .responsive-education {
-        grid-area: 31 / 1 / 42 / 2;
+        grid-area: 40 / 1 / 55 / 2;
         text-align: center;
         display: block;
     }
@@ -415,7 +415,7 @@ hr {
     }
 
     .responsive-language {
-        grid-area: 42 / 1 / 47 / 2;
+        grid-area: 55 / 1 / 61 / 2;
         display: block;
     }
 
