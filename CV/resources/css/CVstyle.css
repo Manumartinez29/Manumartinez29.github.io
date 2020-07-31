@@ -47,24 +47,27 @@
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(25, 5rem);
     margin: 2rem;
+    background-color: #222629;
+    ;
 }
 
 h1 {
     font-size: 3rem;
+    color: #ffffff;
 }
 
 h2 {
     font-size: 2rem;
+    color: #86c232;
 }
 
 h3{
     font-size: 1.5rem;
-    color: #132022;
-    text-decoration: underline;
+    color: #fff;
 }
 
 h4 {
-    color: #60bee6;
+    color: #86c232;
 }
 
 .logo {
@@ -73,13 +76,18 @@ h4 {
 }
 
 p, li, a {
-    color: #52616a;
+    color: #fff;
     text-decoration: none;
+}
+span {
+    color: #6b6e70;
 }
 
 hr {
-    height: 4px;
-    background-color: black;
+    height: 0.5px;
+    background-color: darkgray;
+    color: darkgray ;
+    border: 0.1px solid darkgray;
 }
 
 .responsive-header, .responsive-experience, .responsive-skills, .responsive-education, .responsive-language, .r-footer {
