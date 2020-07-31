@@ -91,11 +91,13 @@ hr {
 /*Header*/
 
 .header {
-    grid-area: 1 / 1 / 3 / 11;
+    grid-area: 1 / 1 / 4 / 11;
     display: inline-block;
     text-align: left;
     margin-top: 1rem;
+    margin-bottom: 1rem;
     flex-shrink: 2;
+    border-bottom: 1px solid gray;
 }
 
 .header h1 {
@@ -118,7 +120,7 @@ hr {
   width: 12rem;
   position: relative;
   bottom: 11rem;
-  left: 70rem;
+  left: 67rem;
   border-radius: 50%;
 }
 
@@ -126,7 +128,7 @@ hr {
 /*Experience Section*/
 
 .experience-section {
-  grid-area: 3 / 1 / 21 / 6;
+  grid-area: 4 / 1 / 21 / 6;
   margin-top: 3rem;
   max-width: 100%;
 }
@@ -141,7 +143,6 @@ hr {
 
 .experience-content {
     display: inline-flex;
-    justify-content: end;
     width: 100%;
     flex-wrap: wrap;
 }
@@ -151,9 +152,17 @@ hr {
   padding-left: 2rem;
 }
 
+.ds-ul li {
+    text-align: justify;
+}
+
 .pm {
     width: 100%;
     padding-left: 1rem;
+}
+
+.pm ul {
+    text-align: justify;
 }
 
 .smm {
@@ -162,11 +171,15 @@ hr {
   padding-top: 1rem;
 }
 
+.smm ul {
+    text-align: justify;
+}
+
 
 /*Skills Section*/ 
 
 .skills-section {
-    grid-area: 3 / 7 / 13 / 11;
+    grid-area: 4 / 7 / 13 / 11;
     margin-top: 3rem;
 }
 
@@ -229,8 +242,16 @@ hr {
     width: 100%;
 }
 
+.college li {
+    text-align: justify;
+}
+
 .programming {
     width: 90%;
+}
+
+.programming p {
+    text-align: justify;
 }
 
 
@@ -390,6 +411,10 @@ hr {
         grid-area: 40 / 1 / 55 / 2;
         text-align: center;
         display: block;
+    }
+
+    .responsive-education span {
+        font-style: italic;
     }
 
     .responsive-education ul {
