@@ -298,14 +298,15 @@ hr {
 
 
 
-@media only screen and (max-width: 760px) {
+
+@media only screen and (max-width: 480px) {
 
     body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(60, 5rem);
+    grid-template-rows: repeat(63, 5rem);
     }
 
     .r-logo {
@@ -352,7 +353,7 @@ hr {
     }
 
     .responsive-header li {
-        line-height: 1rem;
+        line-height: 1.2rem;
     }
 
 
@@ -363,9 +364,8 @@ hr {
     }
 
     .responsive-experience {
-        grid-area: 5 / 1 / 28 / 2;
+        grid-area: 5 / 1 / 29 / 2;
         display: block;
-
     }
 
     .responsive-experience, h2, h3 {
@@ -396,8 +396,9 @@ hr {
     }
 
     .responsive-skills {
-        grid-area: 28 / 1 / 40 / 2;
+        grid-area: 29 / 1 / 42 / 2;
         display: block;
+
     }
 
     .responsive-skills ul {
@@ -417,7 +418,7 @@ hr {
     }
 
     .responsive-education {
-        grid-area: 40 / 1 / 55 / 2;
+        grid-area: 42 / 1 / 58 / 2;
         text-align: center;
         display: block;
     }
@@ -449,8 +450,9 @@ hr {
     }
 
     .responsive-language {
-        grid-area: 55 / 1 / 61 / 2;
+        grid-area: 58 / 1 / 63 / 2;
         display: block;
+
     }
 
     .responsive-language ul {
@@ -464,20 +466,21 @@ hr {
 
     .r-footer {
         display: block;
+        grid-area: 63 / 1 / 63 / 2;
     }
 
 }
 
 
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 320px) {
 
     body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(60, 5rem);
+    grid-template-rows: repeat(63, 5rem);
     margin-left: 1rem;
     }
 
@@ -525,7 +528,7 @@ hr {
     }
 
     .responsive-header li {
-        line-height: 1rem;
+        line-height: 1.2rem;
     }
 
 
@@ -536,7 +539,7 @@ hr {
     }
 
     .responsive-experience {
-        grid-area: 5 / 1 / 28 / 2;
+        grid-area: 6 / 1 / 31 / 2;
         display: block;
     }
 
@@ -568,7 +571,7 @@ hr {
     }
 
     .responsive-skills {
-        grid-area: 28 / 1 / 40 / 2;
+        grid-area: 31 / 1 / 44 / 2;
         display: block;
     }
 
@@ -589,7 +592,7 @@ hr {
     }
 
     .responsive-education {
-        grid-area: 40 / 1 / 55 / 2;
+        grid-area: 44 / 1 / 61 / 2;
         text-align: center;
         display: block;
     }
@@ -621,7 +624,7 @@ hr {
     }
 
     .responsive-language {
-        grid-area: 55 / 1 / 61 / 2;
+        grid-area: 61 / 1 / 67 / 2;
         display: block;
     }
 
@@ -636,6 +639,7 @@ hr {
 
     .r-footer {
         display: block;
+        grid-area: 67 / 1 / 67 / 2;
     }
 
 }
