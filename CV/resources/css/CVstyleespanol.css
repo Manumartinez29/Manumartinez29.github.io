@@ -136,7 +136,7 @@ hr {
 /*Experience Section*/
 
 .experience-section {
-  grid-area: 4 / 1 / 21 / 6;
+  grid-area: 4 / 1 / 22 / 6;
   margin-top: 3rem;
   max-width: 100%;
 }
@@ -187,7 +187,7 @@ hr {
 /*Skills Section*/ 
 
 .skills-section {
-    grid-area: 4 / 7 / 13 / 11;
+    grid-area: 4 / 7 / 14 / 11;
     margin-top: 3rem;
 }
 
@@ -220,7 +220,7 @@ hr {
 
 
 .education-section {
-    grid-area: 13 / 7 / 25 / 11;
+    grid-area: 14 / 7 / 25 / 11;
     padding-top: 1rem;
     width: 100%;
     text-align: center;
@@ -267,7 +267,7 @@ hr {
 
 
 .language-section {
-    grid-area: 21 / 1 / 24 / 5;
+    grid-area: 22 / 1 / 25 / 5;
     text-align: center;
 }
 
