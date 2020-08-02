@@ -47,27 +47,27 @@
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(25, 5rem);
     margin: 2rem;
-    background-color: #222629;
+    background-color: #fff;
     ;
 }
 
 h1 {
     font-size: 3rem;
-    color: #ffffff;
+    color: #121212;
 }
 
 h2 {
     font-size: 2rem;
-    color: #86c232;
+    color: #03256c;
 }
 
 h3{
     font-size: 1.5rem;
-    color: #fff;
+    color: #121212;
 }
 
 h4 {
-    color: #86c232;
+    color: #03256c;
 }
 
 .logo {
@@ -76,7 +76,7 @@ h4 {
 }
 
 p, li, a {
-    color: #fff;
+    color: #121212;
     text-decoration: none;
 }
 span {
@@ -130,6 +130,7 @@ hr {
   bottom: 11rem;
   left: 67rem;
   border-radius: 50%;
+  border: 1px solid #6b6e70;
 }
 
 
