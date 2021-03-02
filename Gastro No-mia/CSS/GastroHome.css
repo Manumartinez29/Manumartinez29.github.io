@@ -238,8 +238,16 @@ form {
   border-radius: 15px;
 }
 
+.evento h2:hover {
+  opacity: 0.8;
+}
+
 .evento img {
   width: 95%;
+}
+
+.evento img:hover {
+  opacity: 0.8;
 }
 
 
