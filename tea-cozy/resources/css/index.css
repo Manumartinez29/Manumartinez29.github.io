@@ -1,0 +1,203 @@
+/*General Rules*/
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    width: 100%;
+    opacity: 1;
+    margin: 0;
+}
+
+
+
+/*Header*/
+
+
+
+.header-container {
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    display: inline-flex;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+}
+
+
+#logo {
+    height: 2.272727273rem;
+    padding-left: 0.454545455rem;
+    margin-top: 0;
+}
+
+.header-links {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+    height: inherit;
+}
+
+.header-links a {
+    color: seashell;
+    text-decoration: seashell underline;
+    margin-top: 0;
+}
+
+.header-links p {
+    margin-top: 0;
+}
+
+
+
+/*Banner*/
+
+
+
+.banner {
+    position: relative;
+    top: 69px;
+    height: 700px;
+    width: 90%;
+    background-image: url('/resources/images/mission-background.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mission-title {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+.mission-text {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+/*Tea of the Month*/
+
+
+
+.tea-month {
+    position: relative;
+    top: 69px;
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+}
+
+.tea-month-title {
+    text-align: center;
+}
+
+.tea-month-text {
+    text-align: center;
+}
+
+.images-container {
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.image {
+    text-align: center;
+}
+
+.image h3 {
+    margin: 10px 10px;
+}
+
+.tea-month img {
+    width: 300px;
+    height: 200px;
+}
+
+
+
+/*Locations*/
+
+
+
+.location {
+    position: relative;
+    top: 69px;
+    height: 500px;
+    width: 90%;
+    background-image: url('/resources/images/locations-background.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    
+}
+
+.location-content {
+    position: relative;
+    top: 10%;
+}
+
+.location-title {
+    text-align: center;
+}
+
+.directions {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+.direction-text {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/*Contact*/
+
+
+
+.contact {
+    position: relative;
+    top: 69px;
+    text-align: center;
+    height: 200px;
+}
+
+
+
+/*Footer*/
+
+
+
+footer {
+    text-align: left;
+    font-size: 0.8rem;
+    padding-left: 20px;
+    position: relative;
+    top: 69px;
+}
