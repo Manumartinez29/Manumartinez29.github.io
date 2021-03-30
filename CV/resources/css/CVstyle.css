@@ -360,7 +360,7 @@ hr {
 
 
 footer {
-    grid-area: 55 / 1 / 56 / 3;
+    grid-area: 55 / 1 / 55 / 3;
     font-size: .9rem;
     font-weight: 400;
 }
@@ -388,7 +388,7 @@ footer {
     font-size: 16px;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(100, 3rem);
+    grid-template-rows: repeat(69, 3rem);
     margin: 4rem;
     background-image: url(../images/y-so-serious-white.png);
 }
@@ -1208,7 +1208,7 @@ hr {
     font-size: 16px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(150, 3rem);
+    grid-template-rows: repeat(116, 3rem);
     margin: auto 5px;
     }
 
