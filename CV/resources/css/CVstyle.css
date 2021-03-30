@@ -51,22 +51,26 @@
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     color: #121212;
+    font-weight: 300;
 }
 
 h2 {
     font-size: 2rem;
     color: #03256c;
+    font-weight: 400;
 }
 
 h3{
     font-size: 1.5rem;
     color: #121212;
+    font-weight: 200;
 }
 
 h4 {
     color: #03256c;
+    font-weight: 400;
 }
 
 .logo {
@@ -77,9 +81,12 @@ h4 {
 p, li, a {
     color: #121212;
     text-decoration: none;
+    font-weight: 200;
 }
 span {
     color: #6b6e70;
+    font-weight: 300;
+    font-style: italic;
 }
 
 hr {
@@ -120,13 +127,14 @@ hr {
 .header li {
     padding-right: 2rem;
     margin-left: 0.2rem;
+    font-weight: 200;
 }
 
 .photo {
   width: 12rem;
   position: relative;
-  bottom: 11rem;
-  left: 63rem;
+  bottom: 13rem;
+  left: 67rem;
   border-radius: 50%;
   border: 1px solid #6b6e70;
 }
@@ -138,14 +146,22 @@ hr {
   grid-area: 4 / 1 / 22 / 6;
   margin-top: 3rem;
   max-width: 100%;
+  
 }
+
+
+
 
 .experience-section h2 {
     text-align: center;
+    
 }  
+
+
 
 .experience-section span {
     padding-left: 0.4rem;
+    
 }
 
 .experience-content {
@@ -161,6 +177,7 @@ hr {
 
 .pom-ul li {
     text-align: justify;
+    
 }
 
 .pm {
@@ -170,6 +187,7 @@ hr {
 
 .pm ul {
     text-align: justify;
+    
 }
 
 .smm {
