@@ -52,22 +52,31 @@
 }
 
 h1 {
-    font-size: 3rem;
-    color: #121212;
+    font-size: 4rem;
+    color: #03256c;
+    font-weight: 300;
+    opacity: 0.85;
 }
 
 h2 {
     font-size: 2rem;
     color: #03256c;
+    font-weight: 400;
+    opacity: 0.85;
 }
 
 h3{
     font-size: 1.5rem;
-    color: #121212;
+    color: #03256c;
+    opacity: 0.85;
+    font-weight: 200;
+    
+    
 }
 
 h4 {
-    color: #03256c;
+    color: #121212;
+    font-weight: 400;
 }
 
 .logo {
@@ -78,14 +87,16 @@ h4 {
 p, li, a {
     color: #121212;
     text-decoration: none;
+    font-weight: 200;
 }
 span {
     color: #6b6e70;
+    font-family: 300;
+    text-decoration: italic;
 }
 
 hr {
     height: 0.5px;
-    background-color: darkgray;
     color: darkgray ;
     border: 0.1px solid darkgray;
 }
