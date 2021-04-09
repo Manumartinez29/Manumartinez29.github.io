@@ -48,7 +48,7 @@
     grid-template-rows: repeat(25, 5rem);
     margin: 2rem;
     background-color: #fff;
-    ;
+    background-image: url(../images/y-so-serious-white.png);
 }
 
 h1 {
@@ -137,7 +137,7 @@ hr {
 /*Experience Section*/
 
 .experience-section {
-  grid-area: 4 / 1 / 22 / 6;
+  grid-area: 4 / 1 / 21 / 6;
   margin-top: 3rem;
   max-width: 100%;
 }
@@ -207,10 +207,11 @@ hr {
 .hard {
     width: 40%;
     flex-shrink: 2;
+    
 }
 
 .tools {
-    width: 40%;
+    width: 45%;
     flex-shrink: 2;
     
 }
@@ -268,8 +269,9 @@ hr {
 
 
 .language-section {
-    grid-area: 22 / 1 / 25 / 6;
+    grid-area: 21 / 1 / 24 / 6;
     text-align: center;
+    
 }
 
 .language-detail {
@@ -289,9 +291,6 @@ hr {
     padding-right: 2rem;
 }
 
-#li3 {
-    padding-right: 2rem;
-}
 
 
 
